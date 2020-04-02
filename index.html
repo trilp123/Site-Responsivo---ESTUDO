@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Node Prop - Especializado em soluções digitais</title>
+    <meta name="description" content="Agência especializada em Marketing Digital, Criação de Aplicativos Mobile">
+    <meta name="keywords" content="Agência digital, Marketing , Sites">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Pedo Marim">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fontawesome-free-5.13.0-web/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--Header-->
+
+    <header class="header container">
+        <a href="index.html">
+            <h1 class="logo">Node Prop - Especializado em soluções digitais</h1>
+        </a>
+
+        <button class="btn-menu bg-gradient"><i class="fas fa-align-justify fa-lg"></i></i></button>
+
+        <nav class="menu">
+            <a class="btn-close"><i class="fas fa-times-circle fa-lg"></i></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Clientes</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner-->
+
+    <div class="banner container">
+        <div class="title">
+            <h2>OUSE INOVAR</h2>
+            <h3>Criamos experiências e estabalecemos ações estratégicas que conectam marcas e consumidores.</h3>
+        </div>
+
+        <div class="buttons">
+            <button class="btn btn-cadastrar bg-white radius">Cadastrar<i
+                    class="fas fa-chevron-circle-right"></i></button>
+            <button class="btn btn-sobre bg-black radius">Sobre<i class="fas fa-question-circle"></i></button>
+        </div>
+    </div>
+
+    <!--Serviços disponíveis no site-->
+
+    <main class="serviços container">
+        <article class="serviço bg-white">
+            <a href="#"><img src="./img/servico1.jpeg" alt="Campanhas Publicitárias"></a>
+
+            <div class="inner">
+                <a href="#">Campanhas Publicitárias</a>
+                <h4>Impressos, VTs e Jingles</h4>
+                <p>Se você está precisando de criação de algum material em específico, conte com a nossa equipe de
+                    profissionais. Eles farão toda a campanha publicitária. VT, Outdoor, folder, anúncio e muito mais
+                    pela sua empresa no mais alto padrão de qualidade.</p>
+            </div>
+        </article>
+
+        <article class="serviço bg-white">
+            <a href="#"><img src="./img/md.jpeg" alt="Marketing Digital"></a>
+
+            <div class="inner">
+                <a href="#">Marketing Digital</a>
+                <h4>Administração de redes sociais</h4>
+                <p>Como agência de publicidade aplicamos estratégias nos meios digitais para que seu negócio seja visto
+                    por milhões de usuários.
+                    O brasil é o 5º país mais conectado do mundo. Por este motivo, o seu negócio não pode ficar fora do
+                    mercado digital.
+                </p>
+            </div>
+        </article>
+
+        <article class="serviço bg-white">
+            <a href="#"><img src="./img/criacao-de-sites.jpg" alt="Criação de Sites"></a>
+
+            <div class="inner">
+                <a href="#">Criação de Sites</a>
+                <h4>Sites administráveis</h4>
+                <p>Agora você pode administrar seu site quando e como quiser.
+                    E melhor ainda, pois você poder pagar por este serviço, pois desenvolvemos de forma. Seu site
+                    atualizado, com seus útlimos
+                    produtos, integração com redes sociais, agora é possível.
+                </p>
+            </div>
+        </article>
+    </main>
+
+    <!--NewsLetter-->
+
+    <section class="newsletter container bg-black">
+
+        <h2>Inscreva-se agora!</h2>
+        <h3>Receba novidades, dicas e muito mais!</h3>
+
+        <form>
+            <input class="bg-black radius" type="email" name="email" placeholder="Digite seu e-mail.">
+            <button class="bg-white radius">Cadastrar</button>
+        </form>
+    </section>
+
+    <!--Footer-->
+
+    <footer class="footer container bg-gradient">
+        <div class="social-icons">
+            <a href=""><i class="fab fa-facebook-square"></i></a>
+            <a href=""><i class="fab fa-twitter-square"></i></a>
+            <a href=""><i class="fab fa-google-plus-square"></i></a>
+            <a href=""><i class="fab fa-instagram-square"></i></a>
+            <a href=""><i class="fas fa-envelope-square"></i></a>
+        </div>
+
+        <p class="copy-right">
+            CopyRight © NodeProp 2020. Todos os direitos reservados.
+        </p>
+    </footer>
+
+    <!-- JQUERY-->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <script>
+        $(".btn-menu").click(function () {
+            $(".menu").show(2000);
+        });
+
+        $(".btn-close").click(function () {
+            $(".menu").hide(2000)
+        })
+    </script>
+</body>
+
+</html>
